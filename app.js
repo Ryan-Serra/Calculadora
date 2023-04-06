@@ -62,6 +62,11 @@ for (var i = 0; i < buttons.length; i++) {
       case '-':
         num.value += '-';
         break;
+      case 'C':
+        num.value=""
+        break;
+        case '.':
+          num.value+='.'
     }
   });
 }
